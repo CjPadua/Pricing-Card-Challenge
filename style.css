@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    padding: 100px;
+}
+
+h2, h4, p {
+    margin: 0px;
+}
+
+h2, h4, #price, button {
+    font-weight: 700;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+#card {
+    width: 630px;
+    height: 430px;
+    background-color: white;
+    box-shadow: 1px 1px 27px 1px rgba(0,0,0,0.36);
+-webkit-box-shadow: 1px 1px 27px 1px rgba(0,0,0,0.36);
+-moz-box-shadow: 1px 1px 27px 1px rgba(0,0,0,0.36);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#top-section, #bottom-left-section, #bottom-right-section {
+    padding: 30px;
+}
+
+#top-section {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+}
+
+#top-section h2 {
+    color: #2ab2af;
+}
+
+#top-section h4 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #c0df34;
+}
+
+#top-section p {
+    color: #98a6bd;
+}
+
+#bottom-section {
+    width: 100%;
+    height: 55%;
+    color: white;
+}
+
+#bottom-left-section, #bottom-right-section {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+}
+
+#bottom-left-section {
+    background-color: #2ab2af;
+}
+
+#bottom-left-section h4 {
+    margin-bottom: 20px;
+}
+
+#price-container {
+    margin-bottom: 5px;
+}
+
+#price {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+#price-frequency, #bottom-right-section ul {
+    font-size: 0.8rem;
+}
+
+#price-frequency {
+    display: inline-block;
+    vertical-align: 6px;
+    margin-left: 5px;
+    opacity: 0.7;
+}
+
+#bottom-left-section p, #bottom-right-section ul {
+    opacity: 0.9;
+}
+
+#bottom-left-section p {
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+
+button {
+    color: white;
+    border: 0px;
+    background-color: #c0df34;
+    padding: 15px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 27px -11px rgba(0,0,0,0.58);
+-webkit-box-shadow: 0px 0px 27px -11px rgba(0,0,0,0.58);
+-moz-box-shadow: 0px 0px 27px -11px rgba(0,0,0,0.58);
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #a9c42d;
+    transform: scale(1.02);
+}
+
+#bottom-right-section {
+    background-color: #2ebfbd;
+}
+
+#bottom-right-section h4 {
+    margin-bottom: 15px;
+}
+
+#bottom-right-section ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+}
