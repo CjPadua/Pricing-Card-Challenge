@@ -6,7 +6,8 @@ html {
 }
 
 body {
-    padding: 100px;
+    padding-top: 100px;
+    padding-left: 320px;
 }
 
 h2, h4, p {
